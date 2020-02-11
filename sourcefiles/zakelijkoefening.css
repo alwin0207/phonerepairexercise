@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+}
+
+#jumbodiv{
+    height: 60vh;
+    width: 100vw;
+    background-color: ghostwhite;
+    /* background-image: url("https://images.pexels.com/photos/56904/pexels-photo-56904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
+    background-image: url("https://images.pexels.com/photos/1388947/technology-telephone-mobile-smart-1388947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#gsmrep {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 150px auto 45%;
+    grid-template-rows: 100%;
+
+}
+
+#laptoprep{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 45% auto 150px;
+    grid-template-rows: 100%;
+}
+
+#gsmreptitle{
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: vertical;
+    background-color: black;
+    color: white;
+    font-style: arial;
+    font-size: 70px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+#laptopreptitle{
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: vertical;
+    background-color: black;
+    color: white;
+    font-style: arial;
+    font-size: 70px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+#gsmrepcontent{
+    grid-column: 3;
+    grid-row: 1;
+    background-color: ghostwhite;
+    display: grid;
+    grid-template-columns: 50px 100px 100px 100px;
+    grid-template-rows:  50px 100px 100px 100px 100px 100px 100px;
+    grid-auto-flow: row;
+    grid-gap: 5px 5px;
+}
+
+#laptoprepcontent{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: ghostwhite;
+    display: grid;
+    grid-template-columns: 50px 100px 100px 100px;
+    grid-template-rows:  50px 100px 100px 100px 100px 100px 100px;
+    grid-auto-flow: row;
+    grid-gap: 5px 5px;
+}
+
+#gsmrepcontent h1{
+    grid-row: 2;
+    grid-column: 2/ span 5;
+    text-align: left;
+}
+
+#laptoprepcontent h1{
+    grid-row: 2;
+    grid-column: 2/ span 5;
+    text-align: left;
+}
+
+
+#gsmrepcontent a{
+
+    align-self: stretch;
+    justify-self: stretch;
+    background-color: green;
+    text-align: left;
+
+    
+    
+}
+
+#laptoprepcontent a{
+    align-self: stretch;
+    justify-self: stretch;
+    background-color: green;
+    text-align: left;
+}
+
+.itema{
+    grid-row: 3;
+    grid-column: 2;
+    background-image: url(../afbeeldingen/apple.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.itemb{
+    grid-row: 3;
+    grid-column: 3;
+    background-image: url(../afbeeldingen/samsung.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.itemc{
+    grid-row: 3;
+    grid-column: 4;
+    background-image: url(../afbeeldingen/htc.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.itemd{
+    grid-row: 4;
+    grid-column: 2;
+    background-image: url(../afbeeldingen/wiko.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.iteme{
+    grid-row: 4;
+    grid-column: 3;
+    background-image: url(../afbeeldingen/motorola.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.itemf{
+    grid-row: 4;
+    grid-column: 4;
+    background-image: url(../afbeeldingen/lg.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.itemg{
+    grid-row: 5;
+    grid-column: 2;
+    background-image: url(../afbeeldingen/huawei.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.itemh{
+    grid-row: 5;
+    grid-column: 3;
+    background-image: url(../afbeeldingen/blackberry.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.itemi{
+    grid-row: 5;
+    grid-column: 4;
+    background-image: url(../afbeeldingen/cat.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#acerlogo{
+    background-image: url(../afbeeldingen/acer.svg);
+}
+
+#asuslogo{
+    background-image: url(../afbeeldingen/asus.svg);
+}
+
+#googlelogo{
+    background-image: url(../afbeeldingen/google.svg);
+}
+
+#lenovologo{
+    background-image: url(../afbeeldingen/lenovo.svg);
+}
+
+#microsoftlogo{
+    background-image: url(../afbeeldingen/microsoft.svg);
+}
+
+#sonylogo{
+    background-image: url(../afbeeldingen/sony.svg);
+}
