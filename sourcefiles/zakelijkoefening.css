@@ -11,6 +11,7 @@
     background-size: 100vw;
     background-repeat: no-repeat;
     background-position: center;
+    padding-top: 1px;
    
 
 }
@@ -258,11 +259,28 @@
 }
 
 li{
-    list-style-type: none;
+    list-style: none;
 }
 
 li:before {
-    content: "&#9989;";
+    content: "✅";
     margin-left: -20px;
     margin-right: 10px;
     }
+
+#topnav{
+    display:flex;
+    justify-content: space-between;
+    background-color: lightgray;
+}
+
+#homelessbox{
+    display:flex;
+    justify-content: left;
+}
+
+#topnav a{
+    padding: 20px 40px;
+    background-color: slategray;
+}
+
