@@ -274,35 +274,34 @@ li:before {
     display:flex;
     justify-content: space-between;
     background-color: lightgray;
-    padding: 1px;
     border-bottom: 1px solid rgb(148, 148, 148);
 }
 
 #homelessbox{
     display:flex;
-    justify-content: left;
-    margin-left: 50px;
+    justify-content: right;
+    margin-right: 50px;
 }
 
 #topnav a{
-    padding: 20px 40px;
+    padding: 10px 20px;
     background-color: rgb(94, 118, 141);
     text-decoration: none;
     color: black;
-    font-size: 22px;
+    font-size: 18px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-right: 4px;
-    border-bottom: 0px solid black;
-    border-bottom-left-radius: 20%;
-    border-bottom-right-radius: 20%;
-    margin-bottom: 2px;
 }
 
 #homebutton.orderproblem{
     background-image: url("../afbeeldingen/logo.png");
     background-position: center;
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-color: ghostwhite;
-    margin-right: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-left: 5px solid ghostwhite;
+    border-right: 5px solid ghostwhite;
+    margin-left: 50px;
 }
