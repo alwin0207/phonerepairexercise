@@ -6,8 +6,10 @@
     height: 60vh;
     width: 100vw;
     background-color: ghostwhite;
-    /* background-image: url("https://images.pexels.com/photos/56904/pexels-photo-56904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
+    /* background-image: url("https://images.pexels.com/photos/56904/pexels-photo-56904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); 
     background-image: url("https://images.pexels.com/photos/1388947/technology-telephone-mobile-smart-1388947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    */
+    background-image: url("https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: 100vw;
     background-repeat: no-repeat;
     background-position: center;
@@ -42,9 +44,9 @@
     grid-row: 1;
     display: flex;
     flex-direction: vertical;
-    background-color: black;
-    color: white;
-    font-style: arial;
+    background-color: #0c0f1b;
+    color: #e0e0e0;
+    font-family: 'Lora', serif;;
     font-size: 70px;
     text-align: center;
     align-items: center;
@@ -58,7 +60,7 @@
     display: flex;
     flex-direction: vertical;
     background-color: black;
-    color: white;
+    color: #e0e0e0;
     font-style: arial;
     font-size: 70px;
     text-align: center;
@@ -70,7 +72,8 @@
 #gsmrepcontent{
     grid-column: 3;
     grid-row: 1;
-    background-color: ghostwhite;
+    /*background-color: ghostwhite; */
+    background-color: #e0e0e0;
     display: grid;
     grid-template-columns: 50px 100px 100px 100px auto;
     grid-template-rows:  50px 100px 100px 100px 100px 50px auto;
@@ -82,7 +85,7 @@
 #laptoprepcontent{
     grid-column: 1;
     grid-row: 1;
-    background-color: ghostwhite;
+    background-color: #e0e0e0;
     display: grid;
     grid-template-columns: 50px 100px 100px 100px auto;
     grid-template-rows:  50px 100px 100px 100px 100px 100px 50px;
@@ -273,7 +276,8 @@ li:before {
     top: 0;
     display:flex;
     justify-content: space-between;
-    background-color: lightgray;
+    background-color: #98A4AE; 
+    /* alternative :     background-color: #91919c;  or lightgray; #98A4AE*/
     border-bottom: 1px solid rgb(148, 148, 148);
 }
 
@@ -285,12 +289,20 @@ li:before {
 
 #topnav a{
     padding: 10px 20px;
-    background-color: rgb(94, 118, 141);
+    background-color: transparent;
     text-decoration: none;
-    color: black;
+    color: #3c3f58;
     font-size: 18px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-family: 'Lora', serif;;
     margin-right: 4px;
+    margin-bottom: 3px;
+    
+}
+
+#homelessbox a:hover{
+    border-bottom: 2px solid #3c3f58 ;
+    padding-bottom: 8px;
 }
 
 #homebutton.orderproblem{
@@ -298,10 +310,55 @@ li:before {
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: ghostwhite;
+    background-color: rgb(236, 240, 243); 
     padding-left: 70px;
     padding-right: 70px;
-    border-left: 5px solid ghostwhite;
-    border-right: 5px solid ghostwhite;
+    border-left: 5px solid rgb(236, 240, 243);
+    border-right: 5px solid rgb(236, 240, 243);
     margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+
+
+#welkomdiv{
+    display: grid;
+    grid-template-columns: 50px 45% auto 150px;
+    grid-template-rows: 50px auto 50% auto;
+    align-items: stretch;
+    height: 60vh;
+    background-color: #0c0f1b;
+    background-color: #e0e0e0;
+    color: #0c0f1b;
+
+}
+
+.rechts{
+    display: flex;
+    flex-direction: column;
+    grid-row: 2/ span 2;
+    grid-column: 3/ span 2;
+    align-items: center;
+    justify-content: top;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    grid-row: 2/ span 3;
+    grid-column: 2;
+    align-items: center;
+    justify-content: top;
+}
+
+.links p{
+    margin-top: 50px;
+   
+}
+
+#groepsfoto{
+    width: 50%;
+    border: 2px solid #0c0f1b;
+    border-radius: 10px;
+    
 }
