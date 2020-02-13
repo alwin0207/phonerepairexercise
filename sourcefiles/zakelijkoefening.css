@@ -274,6 +274,7 @@ li:before {
     display:flex;
     justify-content: space-between;
     background-color: lightgray;
+    padding: 1px;
     border-bottom: 1px solid rgb(148, 148, 148);
 }
 
@@ -294,8 +295,14 @@ li:before {
     border-bottom: 0px solid black;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 20%;
+    margin-bottom: 2px;
 }
 
-#homebutton{
+#homebutton.orderproblem{
+    background-image: url("../afbeeldingen/logo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: ghostwhite;
     margin-right: 50px;
 }
