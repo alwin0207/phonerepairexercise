@@ -277,8 +277,10 @@ li:before {
     display:flex;
     justify-content: space-between;
     background-color: #98A4AE; 
+   /* background: linear-gradient(90deg, rgba(38,0,59,1) 8%, rgba(121,9,89,1) 56%, rgb(89, 34, 161) 93%); */
     /* alternative :     background-color: #91919c;  or lightgray; #98A4AE*/
-    border-bottom: 1px solid rgb(148, 148, 148);
+    background: linear-gradient(90deg, rgba(121,9,89,1) 8%, rgb(89, 34, 161) 59%, rgba(38,0,59,1) 93%);
+    border-bottom: 1px solid #ffffff;/*rgb(148, 148, 148); */
 }
 
 #homelessbox{
@@ -291,7 +293,7 @@ li:before {
     padding: 10px 20px;
     background-color: transparent;
     text-decoration: none;
-    color: #3c3f58;
+    color: #e0e0e0;
     font-size: 18px;
     /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     font-family: 'Lora', serif;;
@@ -310,11 +312,11 @@ li:before {
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color: rgb(236, 240, 243); 
+    background-color: rgba(236, 240, 243, 0);
     padding-left: 70px;
     padding-right: 70px;
-    border-left: 5px solid rgb(236, 240, 243);
-    border-right: 5px solid rgb(236, 240, 243);
+    border-left: 5px transparent rgb(236, 240, 243);
+    border-right: 5px transparent rgb(236, 240, 243);
     margin-left: 50px;
     margin-bottom: 0px;
 }
@@ -358,7 +360,7 @@ li:before {
 
 #groepsfoto{
     width: 50%;
-    border: 2px solid #0c0f1b;
-    border-radius: 10px;
+
     
 }
+
