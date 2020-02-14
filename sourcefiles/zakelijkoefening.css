@@ -3,6 +3,11 @@
 }
 
 #jumbodiv{
+
+    display: grid;
+    grid-template-columns: 60% auto 200px auto 10%;
+    grid-template-rows: 75% auto 70px auto 10%;
+    align-items: stretch;
     height: 60vh;
     width: 100vw;
     background-color: ghostwhite;
@@ -280,7 +285,7 @@ li:before {
    /* background: linear-gradient(90deg, rgba(38,0,59,1) 8%, rgba(121,9,89,1) 56%, rgb(89, 34, 161) 93%); */
     /* alternative :     background-color: #91919c;  or lightgray; #98A4AE*/
     background: linear-gradient(90deg, rgba(121,9,89,1) 8%, rgb(89, 34, 161) 59%, rgba(38,0,59,1) 93%);
-    border-bottom: 1px solid #ffffff;/*rgb(148, 148, 148); */
+    border-bottom: 1px solid #020925;/*rgb(148, 148, 148); */
 }
 
 #homelessbox{
@@ -296,7 +301,7 @@ li:before {
     color: #e0e0e0;
     font-size: 18px;
     /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
-    font-family: 'Lora', serif;;
+    font-family: 'Lora', serif;
     margin-right: 4px;
     margin-bottom: 3px;
     
@@ -322,35 +327,38 @@ li:before {
 }
 
 
-
+/*
 #welkomdiv{
     display: grid;
     grid-template-columns: 50px 45% auto 150px;
-    grid-template-rows: 50px auto 50% auto;
+    grid-template-rows: 0px auto 50% auto;
     align-items: stretch;
-    height: 60vh;
+    height: 90vh;
     background-color: #0c0f1b;
     background-color: #e0e0e0;
     color: #0c0f1b;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    
 
 }
 
 .rechts{
     display: flex;
     flex-direction: column;
-    grid-row: 2/ span 2;
+    grid-row: 3;
     grid-column: 3/ span 2;
     align-items: center;
-    justify-content: top;
+    justify-content: center;
 }
 
 .links{
     display: flex;
     flex-direction: column;
-    grid-row: 2/ span 3;
+    grid-row: 3;
     grid-column: 2;
     align-items: center;
-    justify-content: top;
+    justify-content: center;
 }
 
 .links p{
@@ -363,4 +371,98 @@ li:before {
 
     
 }
+*/
 
+#altwelkomdiv{
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: 12% 22% auto;
+    align-items: stretch;
+    height: 180vh;
+    background-color: #e0e0e0;
+    color: #0c0f1b;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    padding-bottom: 80px;
+}
+
+#altwelkomdiv p{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+#altcontainer{
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    border-bottom: 1px solid black;
+    
+    
+}
+
+#jumbobuttona{
+    display: flex;
+    grid-row: 3;
+    grid-column: 3;
+    background-color: rgb(45, 160, 206);
+    text-decoration: none;
+    font-family: 'Lora', serif;
+    color: rgb(10, 8, 8);
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    box-shadow: 4px 0px 33px 3px rgba(45,160,206,1);
+
+}
+
+#jumbobuttona:hover{
+    background-color: rgb(45, 201, 206);
+    box-shadow: 4px 0px 33px 6px rgba(45,201,206,1);
+}
+
+#welkominfo{
+    grid-row: 3;
+    grid-column: 1/ span 3;
+    display: grid;
+    grid-template-columns: 20% auto 25% 30px 25% auto 20%;
+    grid-template-rows: 15% 35% 10% 35%;
+
+}
+
+#welkominfodeela{
+    grid-row: 2;
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: left;
+}
+
+#welkominfodeelb{
+    grid-row: 4;
+    grid-column: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: left;
+}
+
+#welkominfo p{
+    text-align: left;
+}
+
+#welkomafbeeldinga{
+    grid-column: 5;
+    grid-row: 2;
+    width: 100%;
+}
+
+#welkomafbeeldingb{
+    grid-column: 3;
+    grid-row: 4;
+    width: 100%;
+}
