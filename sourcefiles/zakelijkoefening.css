@@ -515,7 +515,8 @@
     width: 100vw;
     display: grid;
     grid-template-columns: auto 25vw auto 25vw auto 25vw auto;
-    grid-template-rows: auto 25% 25% 25% auto 
+    grid-template-rows: auto 25% 25% 25% auto;
+    color: #0e0e0e;
     /*background-color: #e0e0e0; */
 
 }
@@ -523,11 +524,23 @@
 #news ul{
     margin-top: 15px;
     padding: 0px;
+    padding-left: 5px;
 }
 
 #news li{
     list-style: none;
     padding: 0;
+}
+
+#news a{
+    text-decoration: none;
+    color: #1d1d1d;
+    transition: margin-left 100ms;
+}
+
+#news a:hover{
+    margin-left: 2px;
+    transition: margin-left 100ms; 
 }
 
 .allrows{
