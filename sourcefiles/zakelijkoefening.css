@@ -124,6 +124,14 @@
     
 }
 
+#gsmrepcontent a:hover{
+    background-color: #00802b;
+}
+
+#laptoprepcontent a:hover{
+    background-color: #00802b;
+}
+
 #laptoprepcontent a{
     align-self: stretch;
     justify-self: stretch;
