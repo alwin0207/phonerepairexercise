@@ -301,11 +301,11 @@
     margin-bottom: 20px;
 }
 
-li{
+#gsmrepcontent li, #laptoprepcontent li{
     list-style: none;
 }
 
-li:before {
+#gsmrepcontent li:before, #laptoprepcontent li:before {
     content: "✅";
     margin-left: -20px;
     margin-right: 10px;
@@ -333,7 +333,7 @@ li:before {
     padding: 10px 20px;
     background-color: transparent;
     text-decoration: none;
-    color: #e0e0e0;
+    color: #f0f0f0;
     font-size: 18px;
     /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     font-family: 'Lora', serif;
@@ -513,8 +513,37 @@ li:before {
 #news{
     height:40vh;
     width: 100vw;
+    display: grid;
+    grid-template-columns: auto 25vw auto 25vw auto 25vw auto;
+    grid-template-rows: auto 25% 25% 25% auto 
     /*background-color: #e0e0e0; */
 
+}
+
+#news ul{
+    margin-top: 15px;
+    padding: 0px;
+}
+
+#news li{
+    list-style: none;
+    padding: 0;
+}
+
+.allrows{
+    grid-row: 2/ span 3;
+}
+
+.columna{
+    grid-column: 2;
+}
+
+.columnb{
+    grid-column: 4;
+}
+
+.columnc{
+    grid-column: 6;
 }
 
 @keyframes gradient {
