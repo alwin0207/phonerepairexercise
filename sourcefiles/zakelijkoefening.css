@@ -654,7 +654,11 @@
 
     #altwelkomdiv p{
         font-size: 15px;
-    }    
+    }
+    
+    #welkominfo{
+    grid-template-columns: 10% auto 35% 30px 35% auto 10%;
+    }
 }
 
 
