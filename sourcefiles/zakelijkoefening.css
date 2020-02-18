@@ -15,12 +15,17 @@
     background-image: url("https://images.pexels.com/photos/1388947/technology-telephone-mobile-smart-1388947.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     */
     background-image: url("https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    background-size: 100vw;
+    background-size: 100vw auto;
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 1px;
    
 
+}
+
+@media screen and (max-width: 90vh) {
+    #jumbodiv{
+        background-size: auto 60vh;
+    }
 }
 
 #gsmrep {
@@ -29,7 +34,7 @@
     width: 100vw;
     grid-template-columns: 150px auto 45%;
     grid-template-rows: 100%;
- 
+    background-color: #0c0f1b;
     min-height: 800px;
 
 }
@@ -40,6 +45,7 @@
     width: 100vw;
     grid-template-columns: 45% auto 150px;
     grid-template-rows: 100%;
+    background-color:#0c0f1b;
     min-height: 800px;
 }
 
@@ -47,7 +53,6 @@
     grid-column: 1 / span 2;
     grid-row: 1;
     display: flex;
-    flex-direction: vertical;
     background-color: #0c0f1b;
     color: #e0e0e0;
     font-family: 'Lora', serif;
@@ -62,7 +67,6 @@
     grid-column: 2 / span 2;
     grid-row: 1;
     display: flex;
-    flex-direction: vertical;
     background-color: #0c0f1b;
     color: #e0e0e0;
     font-family: 'Lora', serif;
@@ -247,17 +251,28 @@
     background-image: url(../afbeeldingen/sony.svg);
 }
 
-#transitionbackgrounda{
-    
-    background-image: url("https://images.pexels.com/photos/864994/pexels-photo-864994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    
-    /*
-    background-image: url("https://images.pexels.com/photos/846741/pexels-photo-846741.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    */
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100vw;
-}
+
+    #transitionbackgrounda{
+        
+        background-image: url("https://images.pexels.com/photos/864994/pexels-photo-864994.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        
+        /*
+        background-image: url("https://images.pexels.com/photos/846741/pexels-photo-846741.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: auto 100vh;
+        background-position: center;
+    }
+
+    @media screen and (min-width: 150vh) {
+        #transitionbackgrounda{
+            background-size: 100vw auto;
+        }
+    }
+
+
+
 
 #transitiondiv{
     display: flex;
@@ -511,7 +526,7 @@
 }
 
 #news{
-    height:40vh;
+    height:350px;
     width: 100vw;
     display: grid;
     grid-template-columns: auto 25vw auto 25vw auto 25vw auto;
@@ -559,6 +574,90 @@
     grid-column: 6;
 }
 
+@media screen and (max-width: 860px) {
+    #gsmrep{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: none;
+        grid-template-rows: none;
+        align-items: center;
+
+        
+    }
+    #laptoprep{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: none;
+        grid-template-rows: none;
+        align-items: center;
+    }
+
+    #gsmreptitle{
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    #laptopreptitle{
+        justify-content: center;
+        margin-top: 40px;
+        
+    }
+
+    #gsmrepcontent h1{
+        padding:1px;
+        text-align: center;
+    }
+
+    #laptoprepcontent h1{
+        padding:1px;
+        text-align: center;
+    }
+
+    #homelessbox a{
+        display: none;
+        
+    }
+
+    #gsmrepcontent{
+        grid-template-columns: auto 100px 100px 100px auto;
+    }
+
+    #laptoprepcontent{
+        grid-template-columns: auto 100px 100px 100px auto;
+    }
+
+    #gsmreplist{
+        grid-column: 1/ span 5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+    }
+    
+    #laptopreplist{
+        grid-column: 1/ span 5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    #altwelkomdiv{
+        height: 1200px;
+
+    }
+
+
+    #altwelkomdiv h1{
+        font-size: 25px;
+    }
+
+    #altwelkomdiv p{
+        font-size: 15px;
+    }    
+}
+
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -570,6 +669,8 @@
 		background-position: 0% 50%;
 	}
 }
+
+
 
 
 /* cool background for slow animation: background: linear-gradient(270deg, #87d022, #2622d0, #22bfd0, #22bfd0);*/

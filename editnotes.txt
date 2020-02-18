@@ -1,0 +1,7 @@
+Kijken naar de maximale breedte / verhouding tussen lengte en breedte waar onderdelen werken.
+Het eerst wat misgaat is de achtergrond van de tussendiv.
+
+
+Met mijn huidige instellingen stort de flow in op 490px;
+Een telefoon heeft een scherm van .... px;
+
