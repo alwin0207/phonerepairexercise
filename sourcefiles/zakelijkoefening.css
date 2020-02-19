@@ -339,12 +339,14 @@
 }
 
 #homelessbox{
-    display:flex;
+    display: flex;
     justify-content: right;
     margin-right: 50px;
 }
 
+
 #topnav a{
+    display: inline-block;
     padding: 10px 20px;
     background-color: transparent;
     text-decoration: none;
@@ -356,6 +358,7 @@
     margin-bottom: 3px;
     
 }
+
 
 #homelessbox a:hover{
     border-bottom: 2px solid #3c3f58 ;
@@ -613,10 +616,54 @@
         text-align: center;
     }
 
-    #homelessbox a{
-        display: none;
-        
+
+    #homelessbox{
+        display: inline-block;
+        position: relative;
+        padding: 10px 20px;
+        margin: 0;
+        margin-right: 50px;
+        background-color: transparent;
+        color: white;
+        font-size: 20px;
     }
+
+    #homelessbox a{
+        margin: 0;
+        background-color: grey;
+        padding: 10px 20px;
+    }
+
+    #homelessbox a:hover{
+        padding: 10px 20px;
+        border: 0;
+        margin: 0;
+        background-color: darkgoldenrod;
+    }
+
+    #homelessbox:hover{
+        background-color: #e0e0e078
+    }
+
+    #homelessbox:after{
+        content:"=";
+        padding: 10px 20px;
+    }
+    
+
+    .boxcontent{
+        display: none;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+    }
+
+    #homelessbox:hover .boxcontent{
+        display: flex;
+        flex-direction: column;
+        margin-top: 27px;
+    }
+
 
     #gsmrepcontent{
         grid-template-columns: auto 100px 100px 100px auto;
