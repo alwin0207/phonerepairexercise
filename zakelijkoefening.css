@@ -147,7 +147,7 @@
 .itema{
     grid-row: 3;
     grid-column: 2;
-    background-image: url(../afbeeldingen/apple.svg);
+    background-image: url(afbeeldingen/apple.svg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -155,14 +155,14 @@
 .itemb{
     grid-row: 3;
     grid-column: 3;
-    background-image: url(../afbeeldingen/samsung.svg);
+    background-image: url(afbeeldingen/samsung.svg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
 .itemc{
     grid-row: 3;
     grid-column: 4;
-    background-image: url(../afbeeldingen/htc.svg);
+    background-image: url(afbeeldingen/htc.svg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -171,7 +171,7 @@
 .itemd{
     grid-row: 4;
     grid-column: 2;
-    background-image: url(../afbeeldingen/wiko.svg);
+    background-image: url(afbeeldingen/wiko.svg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -179,7 +179,7 @@
 .iteme{
     grid-row: 4;
     grid-column: 3;
-    background-image: url(../afbeeldingen/motorola.svg);
+    background-image: url(afbeeldingen/motorola.svg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -187,7 +187,7 @@
 .itemf{
     grid-row: 4;
     grid-column: 4;
-    background-image: url(../afbeeldingen/lg.svg);
+    background-image: url(afbeeldingen/lg.svg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -196,7 +196,7 @@
 .itemg{
     grid-row: 5;
     grid-column: 2;
-    background-image: url(../afbeeldingen/huawei.svg);
+    background-image: url(afbeeldingen/huawei.svg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -204,7 +204,7 @@
 .itemh{
     grid-row: 5;
     grid-column: 3;
-    background-image: url(../afbeeldingen/blackberry.svg);
+    background-image: url(afbeeldingen/blackberry.svg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -212,7 +212,7 @@
 .itemi{
     grid-row: 5;
     grid-column: 4;
-    background-image: url(../afbeeldingen/cat.svg);
+    background-image: url(afbeeldingen/cat.svg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -228,27 +228,27 @@
 }
 
 #acerlogo{
-    background-image: url(../afbeeldingen/acer.svg);
+    background-image: url(afbeeldingen/acer.svg);
 }
 
 #asuslogo{
-    background-image: url(../afbeeldingen/asus.svg);
+    background-image: url(afbeeldingen/asus.svg);
 }
 
 #googlelogo{
-    background-image: url(../afbeeldingen/google.svg);
+    background-image: url(afbeeldingen/google.svg);
 }
 
 #lenovologo{
-    background-image: url(../afbeeldingen/lenovo.svg);
+    background-image: url(afbeeldingen/lenovo.svg);
 }
 
 #microsoftlogo{
-    background-image: url(../afbeeldingen/microsoft.svg);
+    background-image: url(afbeeldingen/microsoft.svg);
 }
 
 #sonylogo{
-    background-image: url(../afbeeldingen/sony.svg);
+    background-image: url(afbeeldingen/sony.svg);
 }
 
 
@@ -366,7 +366,7 @@
 }
 
 #homebutton.orderproblem{
-    background-image: url("../afbeeldingen/logo.png");
+    background-image: url("afbeeldingen/logo.png");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
